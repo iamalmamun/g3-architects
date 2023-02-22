@@ -1,0 +1,635 @@
+/*---------------------
+     Banner Start
+  --------------------*/   
+.container{
+    background-color: antiquewhite;
+    display: flex;
+}
+.banner-one{
+   width: 800px;
+   height: 400px;
+   padding-left: 200px;
+}
+.anchor{
+    height: 26px;
+    width: 477px;
+    margin-top: -111px;
+    margin-left: 817px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.lorem-paragraph{
+    text-align: center;
+    margin-top: 250px;
+}
+.introduce{
+    margin-left: 50px;
+}
+.text-largest{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: -50px;
+}
+.btn-color{
+    background-color: coral;
+    width: 125px;
+    height: 50px;
+    border-radius: 7px;
+    color: white;
+    display: block;
+    margin-left: 539px;
+}
+.img-item{
+    display: grid;
+    width: 300px;
+    height: 300px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+/*-----------------------
+       Banner End
+  -----------------------*/ 
+  
+  /*------------------------
+      Container One Start
+    ------------------------*/  
+.container-one{
+    margin: 80px 250px 80px 250px;
+ }
+ .official-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:10px;
+ }
+ .list-image img{
+    width:342px;
+    height:342px;
+ }
+.list-content{
+    margin-top: 180px;
+}
+.list-content h1{
+    font-weight: 500;
+    color: #727272;
+}
+.bold-item{
+    font-weight: 700;
+    color: #131313;
+}
+.features{
+    font-weight: 700;
+    color:#FF900E;
+}
+.list-content>p{
+    color: #727272;
+    font-size: 16px;
+}
+.div-list{
+    display: flex;
+    column-gap: 60px;
+    justify-content: flex-end;
+}
+#explore-more-feature{
+    margin-left: -2px;
+    margin-top: 40px;
+}
+.color-button{
+    background-color: coral;
+    width: 125px;
+    height: 50px;
+    border-radius: 7px;
+    color: white;
+    display: block;
+}
+.small-size{
+    font-size: xx-small;
+}
+/*----------------------------
+      Container One End
+  ----------------------------*/
+  
+/*--------------------------
+     Container Two Start
+  --------------------------*/
+
+  .feature-list-section,.some-facts-container{
+    margin: 130px 240px 130px 240px;
+   }
+.features-list-title>h1{
+    border-left: 6px solid #FF900E;
+    padding-left: 16px;
+    font-size: 20px ;
+    font-weight: 700px;
+}
+.feature-list{
+    padding: 10px;
+    box-shadow: 10px 10px 40px rgb(229, 231, 228);
+}
+.feature-list-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    align-items: stretch;
+}
+/* Architect image style start */
+.architect-image>img{
+    position: relative;
+}
+
+.experience-button {
+    position: absolute;
+    width: 258px;
+    height: 109px;
+    background-color: #FF900E;
+    border-radius: 5px;
+    text-align: center;
+    color:#FFFFFF;
+    padding: 42px;
+    margin:-130px 0px 0px -60px; 
+}
+#experience-years{
+    font-size: 4.063rem;
+    font-weight: 700;
+}
+#experience{
+    font-size: 1.563rem;
+    font-weight: 500;
+}
+.some-facts>h1{
+    font-size: 30px;
+    }
+.some-facts>p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+.icons{
+    display: flex;
+justify-content: space-between;
+
+}
+
+.icon{
+    margin:20px;
+    width:240px;
+    height:242px;
+    border: 2px solid #FF900E;
+    text-align: center;
+}
+.icon>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+.icon>p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+.icon>h1{
+    font-size:45px;
+    margin-top: 11px;
+    margin-bottom: -10px;
+}
+.sponsor-container-section{
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.sponsors{
+    text-align: center;
+}
+.sponsors>h1{
+    font-size:45px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.sponsors>p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+.sponsors-images{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+footer{
+    margin: 150px 240px 100px 240px;
+    width: 1440px;
+    height: 23px;
+    background-color: #FFF4E7;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:38px;
+    font-size: 20px;
+   color: #424242;
+}
+
+
+/*----------------------------
+    Responsive Area Start
+ -----------------------------*/
+ 
+ @media only screen and (max-width: 688px) {
+    .container{
+        width: 100%;
+    height: 600px;
+    background-color: #FF900E1A;
+    padding-left: 10px;  
+    padding-right: 10px; 
+    }
+    .container{
+        margin: 30px 10px 30px 10px;
+    }
+    .official-images{
+        grid-template-columns: repeat(1,1fr);
+        grid-gap:10px;
+        margin-left: 150px;
+    }
+    .list-content{
+        margin-top: 10px;
+    }
+    .of-our-bold{
+        font-weight: 700;
+        color: #131313;
+    }
+    .features{
+        font-weight: 700;
+        color:#FF900E;
+    }
+    .quick-list-content>p{
+        color: #727272;
+        font-size: 16px;
+    }
+    .quick-list{
+        display: flex;
+        column-gap: 60px;
+    }
+    #explore-more-from-quick-feature{
+        margin-left: -2px;
+        margin-top: 40px;
+    }
+    /* ---------
+    Features list Part Start 
+    -----------*/
+    .feature-list-section,.some-facts-container{
+        margin: 130px 240px 130px 240px;
+       
+        
+    }
+    .features-list-title>h1{
+        border-left: 6px solid #FF900E;
+        padding-left: 16px;
+        font-size: 2.8125rem ;
+        font-weight: 700;
+    }
+    .feature-list{
+        padding: 10px;
+        box-shadow: 10px 10px 40px rgb(229, 231, 228);
+    }
+    .feature-list-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 100px;
+        align-items: stretch;
+    }
+    /* Architect image style start */
+    .architect-image>img{
+        position: relative;
+    }
+    
+    .experience-button {
+        position: absolute;
+        width: 258px;
+        height: 109px;
+        background-color: #FF900E;
+        border-radius: 5px;
+        text-align: center;
+        color:#FFFFFF;
+        padding: 42px;
+        margin:-130px 0px 0px -60px; 
+    }
+    #experience-years{
+        font-size: 4.063rem;
+        font-weight: 700;
+    }
+    #experience{
+        font-size: 1.563rem;
+        font-weight: 500;
+    }
+    /* -------
+     Features list Part End
+     ---------- */
+    
+     /* Some Facts section style start */
+     .some-facts>h1{
+        font-size: 2.8125rem;
+        }
+    .some-facts>p{
+        font-size: 20px;
+        font-weight: 600;
+        color: #727272;
+    }
+    .icons{
+        display: flex;
+    justify-content: space-between;
+    
+    }
+    
+    .icon{
+        margin:20px;
+        width:240px;
+        height:242px;
+        border: 2px solid #FF900E;
+        text-align: center;
+    }
+    .icon>img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 45px;
+    }
+    .icon>p{
+        font-size: 20px;
+        font-weight: 600;
+        color: #727272;
+    }
+    .icon>h1{
+        font-size:45px;
+        margin-top: 11px;
+        margin-bottom: -10px;
+    }
+    
+      /* Some Facts section style end */
+    /* -------
+    Sponsors Part style start 
+    ---------*/
+    .sponsor-container-section{
+        margin-left: 240px;
+        margin-right: 240px;
+    }
+    
+    .sponsors{
+        text-align: center;
+    }
+    .sponsors>h1{
+        font-size:45px;
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
+    .sponsors>p{
+        font-size: 20px;
+        font-weight: 600;
+        color: #727272;
+    }
+    .sponsors-images{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 60px;
+    }
+    /*--------
+     Sponsors Part style end
+     ------- */
+    /* 
+    footer part start
+     */
+    footer{
+        margin: 150px 240px 100px 240px;
+        width: 1440px;
+        height: 23px;
+        background-color: #FFF4E7;
+        text-align: center;
+        padding-top:20px;
+        padding-bottom:38px;
+        font-size: 20px;
+       color: #424242;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     /* Responsive Part  for Phone*/
+     @media only screen and (max-width:688px){
+    /* ------
+    common styles or utilities  responsiveness
+    --------*/
+    .introducing-section{
+        width: 100%;
+        height: 600px;
+        background-color: #FF900E1A;
+        padding-left: 10px;  
+        padding-right: 10px; 
+        }
+       /* Nav-bar style responsiveness*/
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    nav h1{
+        font-size: 1.5rem;
+    }
+    .menu-options{
+        height: 26px;
+        width:100%;
+        margin-top:5px;
+        text-align: center;
+    }
+    .menu-options a{
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        color: #424242;
+    }
+    menu{
+        display: flex;
+    
+        
+    }
+    /* nav style end */
+    /* ---------
+    introduction part style start
+     ----------- */
+     .introduction-content{
+        width: 70%;
+        height: 100px;
+        margin: auto;
+        text-align: center;
+        }
+        .introduction-content h1{
+            margin-top: 50px;
+         font-size: 28px;
+         color: #131313;
+        }
+        .introduction-content p{
+            font-size: 14px;
+            color: #727272;
+            font-weight:200;
+            margin-top: -10px;
+            margin-bottom: 30px;
+        
+           }
+        /* Explore More Button style */
+        .explore-more-button{
+            width: 114px;
+            height: 35px;
+            background-color: #FF900E;
+            border-radius: 3px;
+            text-align: center;
+            margin: auto;
+            font-size: 14px;
+            font-weight: 200;
+            color: #FFFFFF;
+            margin-top: 90px;
+            margin-bottom: -32px;
+        }
+        .explore-more-button p{
+            padding-top: 8px;
+        }
+    .banner-image img{
+         padding-top: -85px; 
+        width:90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     /* Quick list section style start */
+     .quick-list-section{
+        margin: 30px 10px 30px 10px;
+     }
+     /* Images style start */
+     .quick-list-images{
+        grid-template-columns: repeat(1,1fr);
+        grid-gap:10px;
+     }
+     /* images style end */
+    /* ------
+    Quick list Content style start
+    ---- */
+    .quick-list-content{
+        margin-top: 10px;
+    }
+    .quick-list-content h1{
+        font-size: 1.8125rem ;  
+    }
+    .quick-list{
+        flex-direction: column;
+        column-gap: 60px;
+    }
+    #explore-more-from-quick-feature{
+        margin-top: 15px;
+    }
+    /* ---------
+    Features list Part Start responsive
+    -----------*/
+    .feature-list-section{
+        margin: 10px 20px 10px 20px;
+       
+        
+    }
+    .features-list-title>h1{
+        border-left: 3px solid #FF900E;
+        padding-left: 8px;
+        font-size: 1.2rem ;
+        font-weight: 600;
+    }
+    .feature-list{
+        padding: 10px;
+        box-shadow: 10px 10px 40px rgb(229, 231, 228);
+    }
+    .feature-list-container{
+     
+        display: flex;
+        flex-direction: column;
+    }
+    /* Architect image style start */
+    .architect-image>img{
+        position: relative;
+        width: 100%;
+        margin-top:30px;
+    }
+    
+    .experience-button {
+        position: absolute;
+        width: 110px;
+        height: 50px;
+        background-color: #FF900E;
+        border-radius: 2px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0px 0px 24px 0px;
+        margin: -34px 0px 0px -8px;
+    }
+    #experience-years{
+        font-size: 1.63rem;
+        font-weight: 700;
+    }
+    #experience{
+        font-size: 0.563rem;
+        font-weight: 500;
+    }
+     /* Some Facts section style start responsiveness */
+     .some-facts-container{
+        margin: 60px 20px 10px 20px;
+       
+        
+    }
+     .some-facts>h1{
+        font-size: 1.8rem;
+        }
+    
+    .icons{
+        flex-direction: column;
+    }
+    /* -------
+    Sponsors Part style start reponsiveness 
+    ---------*/
+    .sponsor-container-section{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .sponsor>img{
+        width: 50%;
+    }
+    .sponsors>h1{
+        font-size:25px;
+        margin-top: 60px;
+        margin-bottom: 6px;
+    }
+    .sponsors>p{
+        font-size: 15px;
+        font-weight: 400;
+        color: #727272;
+    }
+    .sponsors-images{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 30px;
+    }
+    /*--------
+     Sponsors Part style end
+     ------- */
+    
+    
+    /* footer part responsive */
+    .footer{
+        margin:24px 0px 0px 0px;
+        width:100%;
+        height: 15px;
+        background-color: #FFF4E7;
+        text-align: center;
+        padding-top:12px;
+        padding-bottom:22px;
+        font-size: 12px;
+       
+    }
+    
+}
